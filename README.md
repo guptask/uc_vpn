@@ -1,6 +1,8 @@
-# Bash script for access to VPN of University of Cincinnati.
+# Linux Installer for University of Cincinnati VPN
 
-Run the script    : bash vpn\_installer.sp <6+2\_id>
+```bash
+Run the script    : bash vpn_installer.sp <6+2_id>
 Log into UC VPN   : jnc --nox uc
 Log out of UC VPN : jnc stop
+```
 
