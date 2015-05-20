@@ -24,10 +24,10 @@ VER=$(lsb_release -sr)
 
 case ${OS} in
 Debian)
-    sudo apt-get install libc6-i386 lib32z1 lib32nss-mdns
+    sudo apt-get install realpath libc6-i386 lib32z1 lib32nss-mdns
     ;;
 Ubuntu)
-    sudo apt-get realpath install libc6-i386 lib32z1 lib32nss-mdns
+    sudo apt-get install realpath libc6-i386 lib32z1 lib32nss-mdns
     ;;
 *)
     #sudo yum install glibc.i686 zlib.i686 nss.i686
