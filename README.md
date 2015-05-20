@@ -9,7 +9,7 @@ Note: Install git and lsb-release packages (if not present) before
       proceeding.
 
 Install UC VPN : ./uc_vpn/vpn_installer.sh <your 6+2 id>
-Example: If a UC student's 6+2 id is abcdefgh, the command will be 
+Example: If abcdefgh is the 6+2 id, the command will be 
          ./uc_vpn/vpn_installer.sh abcdefgh
 
 Log into UC VPN   : jnc --nox uc
