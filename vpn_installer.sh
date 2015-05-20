@@ -1,13 +1,13 @@
 #!/bin/bash
 
-###############################################################################
+###########################################################
 #
 # UC VPN installer
 # Author: Sounak Gupta
 # Email : guptask@mail.uc.edu
 # Source: http://www.scc.kit.edu/scc/net/juniper-vpn/linux/
 #
-###############################################################################
+###########################################################
 
 # Check the number of arguments
 if test "$#" -ne 1; then
@@ -26,8 +26,14 @@ case ${OS} in
 Debian)
     sudo apt-get install libc6-i386 lib32z1 lib32nss-mdns
     ;;
+Ubuntu)
+    sudo apt-get install libc6-i386 lib32z1 lib32nss-mdns
+    ;;
 *)
     #sudo yum install glibc.i686 zlib.i686 nss.i686
+    echo "======================================================================="
+    echo "Debian and Ubuntu supported currently. Fedora Core support coming soon."
+    echo "======================================================================="
     exit
     ;;
 esac
