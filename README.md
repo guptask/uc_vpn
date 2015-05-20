@@ -2,10 +2,11 @@
 
 ```bash
 Download the repo : git clone https://github.com/guptask/uc_vpn
-Note: Install git package first \if not present.
+Note: Install git package first when not present using apt-get 
+      or aptitude or yum.
 
-Install UC VPN    : ./uc_vpn/vpn_installer.sh <your 6+2 id>
-Example: For a person named John Doe the \command is 
+Install UC VPN : ./uc_vpn/vpn_installer.sh <your 6+2 id>
+Example: A person named John Doe types
 ./uc_vpn/vpn_installer.sh doejn
 
 Log into UC VPN   : jnc --nox uc
